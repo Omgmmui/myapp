@@ -5,7 +5,7 @@ pipeline {
 
         stage('Check Environment') {
             steps {
-                sh 'echo "Running as:"'
+                sh 'echo Running as:'
                 sh 'whoami'
                 sh 'docker --version'
             }
