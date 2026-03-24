@@ -3,9 +3,11 @@ pipeline {
 
     stages {
 
-        stage('Clone Code') {
+        stage('Check Environment') {
             steps {
-                git 'https://github.com/Omgmmui/myapp.git'
+                sh 'echo "Running as:"'
+                sh 'whoami'
+                sh 'docker --version'
             }
         }
 
