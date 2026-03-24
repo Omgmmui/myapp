@@ -1,0 +1,5 @@
+node_modules
+npm-debug.log
+jenkins_*.deb
+.git
+.gitignore

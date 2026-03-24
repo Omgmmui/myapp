@@ -1,5 +1,7 @@
 const http = require("http");
 
+console.log("Auto deploy test 🚀");   // 👈 ADD THIS LINE
+
 const server = http.createServer((req, res) => {
   res.end("Hello from EC2 🚀");
 });
